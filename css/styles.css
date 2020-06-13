@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  color: #2486cf;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.main {
+  margin: 8.5rem auto 0 auto;
+  width: 30%;
+}
+
+.logo {
+  margin: 2rem auto 0 auto;
+  display: block;
+  width: 50%;
+  z-index: 0;
+  position: relative;
+  top: 1rem;
+}
+
+.search-bar {
+  width: 100%;
+  height: 2.6rem;
+  border: none;
+  border-radius: 50px;
+  padding: 0.1rem 0 0.1rem 4rem;
+  font-size: 1rem;
+}
+
+.search-icon {
+  color: grey;
+  position: relative;
+  z-index: 2;
+  top: 37px;
+  left: 17px;
+}
+
+.mic-icon {
+  float: right;
+  color: grey;
+  position: relative;
+  z-index: 2;
+  right: 17px;
+  top: 37px;
+}
+
+.circles-section {
+  width: 80%;
+  margin: 1.5rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-gap:5%;
+}
+
+.square {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20%;
+  border-radius: 5px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.square:hover {
+  background-color: #222831;
+}
+
+.circle {
+background-color: white;
+border-radius: 50%;
+padding: 0.5rem;
+width: 2.8rem;
+height: 2.8rem;
+margin: 0 auto 1.5rem auto;
+}
+
+.logos{
+  width: 2rem;
+  height: 2rem;
+}
